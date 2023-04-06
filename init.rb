@@ -15,8 +15,9 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 require 'redmine'
-require 'roles_controller_patch'
-
+Rails.configuration.to_prepare do
+    require 'roles_controller_patch'
+end
 Redmine::Plugin.register :redmine_list_of_roles_members do
 
     name 'Redmine List of Roles Members'
