@@ -23,7 +23,7 @@ Redmine::Plugin.register :redmine_list_of_roles_members do
     name 'Redmine List of Roles Members'
     author 'Savoir-faire Linux'
     description 'Show a list of all the members of a role grouped by project.'
-    version '0.1.0'
+    version '0.1.1'
     url 'https://github.com/savoirfairelinux/redmine-list-of-roles-members'
     author_url 'https://www.savoirfairelinux.com'
 
